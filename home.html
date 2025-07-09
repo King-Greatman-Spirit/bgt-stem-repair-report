@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>STEM and Repair Report</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container my-5 bg-primary">
+  <div class="report-card">
+    <div class="row mb-4 d-flex justify-content-center">
+      <!-- Logo & Title Column -->
+      <div class="col-md-4 text-start w-auto border border-3 p-3">
+        <img src="img/logo.png" alt="BGT Logo" class="img-fluid mx-auto d-block" style="width: 120px; height: auto;">
+        <h5 class="fw-bold my-2 text-primary">B.G. TECHNICAL LIMITED</h5>
+        <p class="mb-0 text-primary" style="font-size: 0.75rem;">
+          (PIPELINE FLOW ASSURANCE COMPANY)
+        </p>
+      </div>
+
+      <!-- Title Centered Column -->
+      <div class="col-md-5 d-flex align-items-center justify-content-center border-top border-bottom border-3 p-3">
+        <h1 class="mb-0 text-center text-primary">STEM and REPAIR REPORT</h1>
+      </div>
+
+      <!-- MT No. & Date Column -->
+      <div class="col-md-3 border border-3 p-3">
+        <label class="form-label text-primary">MT No. A</label>
+        <input type="text" class="form-control mb-2" placeholder="Enter MT No.">
+        <label class="form-label text-primary">Date Carried Out</label>
+        <input type="date" class="form-control">
+      </div>
+    </div>
+
+    <form>
+      <!-- Equipment Details Begins  -->
+      <div class="section-title bg-primary text-white">EQUIPMENT DETAILS</div>
+      <div class="row g-3">
+        <div class="col-md-8">
+          <label class="form-label text-primary">Engineer / Mechanic's Name</label>
+          <input type="text" class="form-control" placeholder="Enter Name">
+        </div>
+        <div class="col-md-4">
+          <label class="form-label text-primary">Personnel Code</label>
+          <input type="text" class="form-control" placeholder="Code">
+        </div>
+        <div class="col-md-12">
+          <label class="form-label text-primary">Type of Equipment</label>
+          <input type="text" class="form-control" placeholder="Equipment Type">
+        </div>
+        <div class="col-md-4">
+          <label class="form-label text-primary">Unit/Serial/ID Number</label>
+          <input type="text" class="form-control" placeholder="BGT/PU/AC/001">
+        </div>
+        <div class="col-md-4">
+          <label class="form-label text-primary">Location</label>
+          <input type="text" class="form-control" placeholder="Location">
+        </div>
+        <div class="col-md-4">
+          <label class="form-label text-primary">SIR #</label>
+          <input type="text" class="form-control" placeholder="#">
+        </div>
+        <div class="col-md-6">
+          <label class="form-label text-primary">Maintenance Schedule</label>
+          <input type="text" class="form-control" placeholder="Schedule">
+        </div>
+        <div class="col-md-6">
+          <label class="form-label text-primary">Engine Hours Downhole</label>
+          <input type="text" class="form-control" placeholder="Engine Hours">
+        </div>
+        <div class="col-md-6">
+          <label class="form-label text-primary">Reference Number</label>
+          <input type="text" class="form-control" placeholder="Ref No">
+        </div>
+        <div class="col-md-6">
+          <label class="form-label text-primary">Mixing</label>
+          <input type="text" class="form-control" placeholder="Mixing">
+        </div>
+      </div>
+      <!-- Equipment Details Ends -->
+
+      <!-- Inspection Checklist Begins  -->
+      <div class="section-title bg-primary text-white mt-4">INSPECTION CHECKLIST (BASED ON STEM SCHEDULE)</div>
+      <div class="row g-3">
+        <div class="col-md-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="oilSys">
+            <label class="form-check-label text-primary" for="oilSys">Oil & Fuel Systems</label>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="lasSys">
+            <label class="form-check-label text-primary" for="lasSys">LAS System</label>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="controlInstr">
+            <label class="form-check-label text-primary" for="controlInstr">Control & Instruments</label>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="mixinSys">
+            <label class="form-check-label text-primary" for="mixinSys">Mixing System</label>
+          </div>
+        </div>
+      </div>
+      <div class="row g-3">
+        <div class="col-md-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="airSys">
+            <label class="form-check-label text-primary" for="airSys">Air System</label>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="centriPump">
+            <label class="form-check-label text-primary" for="centriPump">Centrifugal Pumps</label>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="batchMix">
+            <label class="form-check-label text-primary" for="batchMix">Batch Mixer</label>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="elecSys">
+            <label class="form-check-label text-primary" for="elecSys">Electric Systems</label>
+          </div>
+        </div>
+      </div>
+      <div class="row g-3">
+        <div class="col-md-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="hydraSys">
+            <label class="form-check-label text-primary" for="hydraSys">Hydraulic System</label>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="sucDisch">
+            <label class="form-check-label text-primary" for="sucDisch">Suction & Discharge</label>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="motors">
+            <label class="form-check-label text-primary" for="motors">Motors</label>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="elecSys">
+            <label class="form-check-label text-primary" for="elecSys">Auxilaries (Cmt Head)</label>
+          </div>
+        </div>
+      </div>
+      <div class="row g-3">
+        <div class="col-md-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="emerEquip">
+            <label class="form-check-label text-primary" for="emerEquip">Emergency Equipment</label>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="bulkSys">
+            <label class="form-check-label text-primary" for="bulkSys">Bulk System</label>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="triPump">
+            <label class="form-check-label text-primary" for="triPump">Triplex Pumps</label>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="presTest">
+            <label class="form-check-label text-primary" for="presTest">Press Tested to - K psi</label>
+          </div>
+        </div>
+      </div>
+      <!-- Inspection Checklist Ends  -->
+
+      <!-- Work Done Begins  -->
+      <div class="section-title bg-primary text-white mt-4">Work Done / Outstanding / General Comments</div>
+      <div class="mb-3">
+        <textarea class="form-control" rows="4" placeholder="Describe the work done or outstanding tasks..."></textarea>
+      </div>
+      <!-- Work Done Ends  -->
+
+      <!-- Total Unit Begins  -->
+      <div class="section-title bg-primary text-white mt-4">Total Unit / Equipment Downtime for Maintenance / Repair</div>
+      <div class="row g-3">
+        <div class="col-md-12">
+          <label class="form-label text-primary">MRE Reference Number</label>
+          <input type="text" class="form-control" placeholder="Ref No.">
+        </div>
+        <div class="col-md-8">
+          <label class="form-label text-primary">Is the equipment ready to perform the next job?</label>
+          <select class="form-select" name="equipmentReady" required>
+            <option value="" disabled selected>Kindly select an option</option>
+            <option value="yes">YES, it is ready.</option>
+            <option value="no">NO, it is not ready.</option>
+          </select>
+        </div>
+        <div class="col-md-4">
+          <label class="form-label text-primary">Date</label>
+          <input type="date" class="form-control">
+        </div>
+        <div class="col-md-6">
+          <label class="form-label text-primary">Mechanic (If Applicable)</label>
+          <input type="text" class="form-control" placeholder="Enter Here">
+        </div>
+        <div class="col-md-6">
+          <label class="form-label text-primary">Service Supervisor Signature</label>
+          <select class="form-select" name="supervisorSignature" required>
+            <option value="" disabled selected>Choose status</option>
+            <option value="pending">Pending</option>
+            <option value="signed">Signed</option>
+            <option value="cancelled">Cancelled</option>
+          </select>
+        </div>
+      <!-- Total Unit Ends  -->
+
+      <div class="mt-4 text-center">
+        <button type="submit" class="btn btn-primary px-4">Submit Report</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
